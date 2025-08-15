@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="light dark" />
+  <title>CV — System Administrator</title>
+  <meta name="description" content="CV of a System Administrator with 9+ years of experience. Dark/Light theme, EN/UK/RU." />
+  <link rel="preconnect" href="." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <a class="brand" href="#about" data-i18n="brand">SysAdmin</a>
+
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="#about" data-i18n="nav.about" class="nav-link">About</a>
+      <a href="#skills" data-i18n="nav.skills" class="nav-link">Skills</a>
+      <a href="#projects" data-i18n="nav.projects" class="nav-link">Projects</a>
+      <a href="#contacts" data-i18n="nav.contacts" class="nav-link">Contacts</a>
+    </nav>
+
+    <div class="controls">
+      <!-- Language flags -->
+      <div class="lang-flags" role="group" aria-label="Language">
+        <!-- EN (default) -->
+        <button class="lang-flag" data-lang="en" aria-label="English (EN)" title="English (EN)">
+          <!-- Simplified US flag -->
+          <svg viewBox="0 0 7410 3900" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path fill="#b22234" d="M0 0h7410v3900H0z"/>
+            <path stroke="#fff" stroke-width="300" d="M0 450h7410M0 1050h7410M0 1650h7410M0 2250h7410M0 2850h7410M0 3450h7410"/>
+            <path fill="#3c3b6e" d="M0 0h2964v2100H0z"/>
+          </svg>
+        </button>
+        <!-- UKRAINIAN -->
+        <button class="lang-flag" data-lang="uk" aria-label="Українська (UK)" title="Українська (UK)">
+          <!-- Ukraine flag -->
+          <svg viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path fill="#005BBB" d="M0 0h9v3H0z"/>
+            <path fill="#FFD500" d="M0 3h9v3H0z"/>
+          </svg>
+        </button>
+        <!-- RUSSIAN -->
+        <button class="lang-flag" data-lang="ru" aria-label="Русский (RU)" title="Русский (RU)">
+          <!-- Russia flag -->
+          <svg viewBox="0 0 9 6" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path fill="#fff" d="M0 0h9v6H0z"/>
+            <path fill="#0039a6" d="M0 2h9v4H0z"/>
+            <path fill="#d52b1e" d="M0 4h9v2H0z"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Theme toggle -->
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle theme" title="Toggle theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.8 1.42-1.42zm10.48 0l1.79-1.79 1.41 1.41-1.79 1.8-1.41-1.42zM12 4V1h-0v3h0zm0 19v-3h0v3h0zM4 12H1v0h3v0zm19 0h-3v0h3v0zM6.76 19.16l-1.42 1.42-1.79-1.8 1.41-1.41 1.8 1.79zM18.36 19.16l1.41 1.42 1.79-1.8-1.41-1.41-1.79 1.79zM12 7a5 5 0 100 10 5 5 0 000-10z"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 109.79 9.79z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- ABOUT -->
+    <section id="about" class="section about">
+      <div class="about__photo">
+        <img src="images/avatar.JPG" alt="Profile photo" width="350" height="auto" decoding="async" />
+      </div>
+      <div class="about__info">
+        <h1 class="title" data-i18n="title">System Administrator</h1>
+        <p class="subtitle"><span data-i18n="summary">9+ years of experience: Linux/Windows, networking, security, automation, monitoring, and cloud.</span></p>
+        <ul class="meta">
+          <li><strong data-i18n="location.label">Location:</strong> <span data-i18n="location.value">Helsinki, Finland</span></li>
+          <li><strong data-i18n="status.label">Status:</strong> <span data-i18n="status.value">Open to opportunities</span></li>
+        </ul>
+        <div class="cta-row">
+          <a class="btn primary" href="#contacts" data-i18n="cta.contact">Contact</a>
+          <a class="btn ghost" href="#skills" data-i18n="cta.viewSkills">View skills</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <h2 class="section-title" data-i18n="skills.title">Skills</h2>
+      <div class="skills-grid">
+        <article class="card">
+          <h3 data-i18n="skills.core.title">Infrastructure</h3>
+          <ul class="list">
+            <li data-i18n="skills.core.li1">Linux (RHEL/Debian), Windows Server</li>
+            <li data-i18n="skills.core.li2">Active Directory, Group Policy, DNS/DHCP</li>
+            <li data-i18n="skills.core.li3">Virtualization: VMware/Proxmox/Hyper‑V</li>
+            <li data-i18n="skills.core.li4">Backup and disaster recovery</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="skills.net.title">Networking & Security</h3>
+          <ul class="list">
+            <li data-i18n="skills.net.li1">L2/L3, VLAN, VPN, Firewall (pfSense/ASA)</li>
+            <li data-i18n="skills.net.li2">Monitoring: Zabbix, Prometheus, Grafana</li>
+            <li data-i18n="skills.net.li3">SIEM/logging: ELK, Wazuh</li>
+            <li data-i18n="skills.net.li4">TLS, IAM, MFA, hardening</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3 data-i18n="skills.auto.title">Automation & Cloud</h3>
+          <ul class="list">
+            <li data-i18n="skills.auto.li1">Bash, PowerShell, Python (scripts)</li>
+            <li data-i18n="skills.auto.li2">Ansible/Terraform (IaC)</li>
+            <li data-i18n="skills.auto.li3">Docker, Kubernetes (basic)</li>
+            <li data-i18n="skills.auto.li4">AWS/Azure/GCP (fundamentals)</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section projects">
+      <h2 class="section-title" data-i18n="projects.title">Projects</h2>
+      <div class="timeline">
+        <div class="timeline-line"></div>
+
+        <!-- 6 project templates -->
+        <article class="timeline-item left">
+          <div class="card">
+            <div class="project-image"><img src="images/project1.jpg" alt="Project 1" /></div>
+            <h3 data-i18n="projects.p1.title">Project 1</h3>
+            <p data-i18n="projects.p1.desc">Description for project 1.</p>
+            <ul class="skills"><li>Skill A</li><li>Skill B</li></ul>
+          </div>
+        </article>
+
+        <article class="timeline-item right">
+          <div class="card">
+            <div class="project-image"><img src="images/project2.jpg" alt="Project 2" /></div>
+            <h3 data-i18n="projects.p2.title">Project 2</h3>
+            <p data-i18n="projects.p2.desc">Description for project 2.</p>
+            <ul class="skills"><li>Skill C</li><li>Skill D</li></ul>
+          </div>
+        </article>
+
+        <article class="timeline-item left">
+          <div class="card">
+            <div class="project-image"><img src="images/project3.jpg" alt="Project 3" /></div>
+            <h3 data-i18n="projects.p3.title">Project 3</h3>
+            <p data-i18n="projects.p3.desc">Description for project 3.</p>
+            <ul class="skills"><li>Skill E</li><li>Skill F</li></ul>
+          </div>
+        </article>
+
+        <article class="timeline-item right">
+          <div class="card">
+            <div class="project-image"><img src="images/project4.jpg" alt="Project 4" /></div>
+            <h3 data-i18n="projects.p4.title">Project 4</h3>
+            <p data-i18n="projects.p4.desc">Description for project 4.</p>
+            <ul class="skills"><li>Skill G</li><li>Skill H</li></ul>
+          </div>
+        </article>
+
+        <article class="timeline-item left">
+          <div class="card">
+            <div class="project-image"><img src="images/project5.jpg" alt="Project 5" /></div>
+            <h3 data-i18n="projects.p5.title">Project 5</h3>
+            <p data-i18n="projects.p5.desc">Description for project 5.</p>
+            <ul class="skills"><li>Skill I</li><li>Skill J</li></ul>
+          </div>
+        </article>
+
+        <article class="timeline-item right">
+          <div class="card">
+            <div class="project-image"><img src="images/project6.jpg" alt="Project 6" /></div>
+            <h3 data-i18n="projects.p6.title">Project 6</h3>
+            <p data-i18n="projects.p6.desc">Description for project 6.</p>
+            <ul class="skills"><li>Skill K</li><li>Skill L</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTS -->
+    <section id="contacts" class="section">
+      <h2 class="section-title" data-i18n="contacts.title">Contacts</h2>
+      <div class="contacts">
+        <a class="contact" href="mailto:you@example.com" aria-label="Email">you@example.com</a>
+        <a class="contact" href="tel:+79001234567" aria-label="Phone">+7 900 123‑45‑67</a>
+        <a class="contact" href="https://linkedin.com/in/username" aria-label="LinkedIn">linkedin.com/in/username</a>
+        <a class="contact" href="https://github.com/username" aria-label="GitHub">github.com/username</a>
+      </div>
+      <div class="note" data-i18n="contacts.note">
+        Open to remote work and relocation. Response within 24 hours.
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <small>© <span id="year"></span> <span data-i18n="footer.name">System Administrator</span> • <span data-i18n="footer.rights">All rights reserved</span></small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
